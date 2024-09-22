@@ -9,9 +9,9 @@ public class Pruevas {
 
         System.out.println("Saludos = " + hola.toUpperCase()); //Poner todo en mayoscola
 
+        var nomero = 56;
 
-        var hg = 56;
-
+        System.out.println(nomero);
 
 
     }
