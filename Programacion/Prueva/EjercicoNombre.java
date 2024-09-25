@@ -8,7 +8,7 @@ public class EjercicoNombre {
     public static void main(String[] args) {
 
     String nombre;
-    String  primerApellido;
+    String primerApellido;
     String segundoApellido;
 
     Scanner sc = new Scanner(System.in);
@@ -20,9 +20,9 @@ public class EjercicoNombre {
     System.out.println("Cual es tu segundo apellido: ");
     segundoApellido = sc.nextLine();
 
-    System.out.println("El nombre completo es: " + primerApellido + " " + segundoApellido + " , " + nombre );
+    System.out.println("El nombre completo es: " + primerApellido + " " + segundoApellido + ", " + nombre );
 
-
+    sc.close();
 
     }
 }
