@@ -20,12 +20,11 @@ public class Ejercicio2IVA {
         System.out.println("Dame la cantidad");
         cantidad = sc.nextInt();
 
-        precioFinal = (precio + ((precio*21)/100)) * cantidad;
+        precioFinal = (precio + (precio*(iva/100))) * cantidad;
 
         System.out.println("El precio final es: " + precioFinal + "€");
 
-
-
+        sc.close();
 
     }
 }
